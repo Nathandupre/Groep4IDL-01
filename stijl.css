@@ -1,0 +1,277 @@
+/* hier komt jouw CSS */
+
+body {
+    background-color: #edab64;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #1e1818;
+    width: 95%;
+    height: 75px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+header h1 {
+    color: #753a06;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #edab64;
+    padding-top: 20px;
+    font-size: 36px;
+}
+
+h2#subtitle {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00479a;
+    padding-top: 20px;
+}
+
+footer p.terug {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer p.volgende {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    color: #753a06;
+    background-color: white;
+    padding: 10px 20px;
+    border: 2px solid #00479a;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer a {
+    color: #753a06;
+    text-decoration: none;
+}
+
+/* home */
+section#home {
+    margin-top: 120px;
+}
+
+section#home img {
+    border-radius: 30px;
+}
+
+section#home a, section#home p {
+    color: black;
+    text-decoration-color: black;
+    margin-top: 25px;
+    font-size: 27px;
+}
+
+section#home h2 {
+    color: #753a06;
+    margin-top: 75px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section#home h3 {
+    color: #753a06;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+section#home div {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+/* bestellen */
+section#bestellen {
+    margin-top: 25px;
+}
+
+section#bestellen table {
+    width: 100%;
+    text-align: center;
+}
+
+section#bestellen table td {
+    width: 50%;
+    vertical-align: top;
+}
+
+section#bestellen table td p {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #00479a;
+    font-weight: bold;
+}
+
+section#bestellen div.image {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    margin: 0 auto;
+}
+
+section#bestellen div.image img.item {
+    margin-top: 15px;
+    max-width: 90px;
+    max-height: 70px;
+}
+
+section#bestellen div.image img.vinkje {
+    height: 15px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+/* kies je bakker */
+section#kiesjebakker {
+    margin-top: 25px;
+}
+
+section#kiesjebakker img {
+    width: 95%;
+    margin-left: 2.5%;
+    border: 2px solid #00479a;
+}
+
+/* betalen */
+section#betalen {
+    margin-top: 25px;
+}
+
+section#betalen div.item {
+    margin-left: 15px;
+    clear: both;
+}
+
+section#betalen div.item div.image {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #753a06;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+section#betalen div.item div.image img {
+    margin-top: 15px;
+    max-width: 90px;
+    max-height: 70px;
+}
+
+section#betalen div.item p {
+    padding-top: 40px;
+    font-size: 18px;
+    color: #00479a;
+    font-weight: bold;
+}
+
+section#betalen div.tijd {
+    margin-top: 75px;
+}
+
+section#betalen div.tijd p {
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+section#betalen div.totaal {
+    border-top: 4px solid #00479a;
+    margin: 0 15px;
+    margin-top: 50px;
+    padding-top: 15px;
+    text-align: right;
+    font-size: 30px;
+}
+
+
+/* betaalmethode */
+section#betaalmethode {
+    margin-top: 25px;
+}
+
+section#betaalmethode div {
+    width: 90%;
+    height: 150px;
+    margin-left: 5%;
+    border: 2px solid #753a06;
+    background-color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+section#betaalmethode div img {
+    max-height: 125px;
+}
+
+/* in orde */
+section#in-orde {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+section#in-orde h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+section#in-orde img {
+    width: 50%;
+    margin: 50px 25%;
+}
+
+section#in-orde div.cirkel-knop {
+    margin-left: 15px;
+    clear: both;
+}
+
+section#in-orde div.cirkel-knop div.cirkel {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #00479a;
+    border-radius: 100%;
+    float: left;
+}
+
+section#in-orde div.cirkel-knop p {
+    font-size: 24px;
+    padding-top: 15px;
+    margin-left: 65px;
+    margin-bottom: 25px;
+}
+
+/* route */
+section#route {
+    margin-top: 25px;
+}
+
+section#route img {
+    width: 80%;
+    margin-left: 5rem;
+    border: 2px solid #753a06;
+}
+
+section#route div.tijd {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+section#route div.tijd p {
+    margin-left: 30px;
+    font-size: 30px;
+}
